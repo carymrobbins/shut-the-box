@@ -15,6 +15,7 @@ cabal-version:        >=1.10
 
 executable shut-the-box
   main-is:              Main.hs
+  ghc-options:          -Wall -Werror
   -- other-modules:
   -- other-extensions:
   build-depends:        base >= 4.7 && < 5
